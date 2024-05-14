@@ -26,7 +26,6 @@ void Player::Initialize()
 
 void Player::Update()
 {
-	XMVECTOR move{ 0,0,0,0 };
 
 	if (Input::IsKey(DIK_LEFT))
 		transform_.position_.x -= 0.05;
